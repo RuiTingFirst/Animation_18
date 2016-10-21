@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="2000">
+
+    <alpha android:fromAlpha="0"
+        android:toAlpha="1">
+
+    </alpha>
+    <!--Animation.RELATIVE_TO_PARENT,
+    Animation.RELATIVE_TO_SELF,
+    如果在xml动画文件中想要设置这两个值的话, PARENT : 在值的后面加p(如 : 50%)
+    SELF: 什么都不用加-->
+    <rotate android:fromDegrees="0"
+        android:pivotX="50%p"
+        android:pivotY="50%p"
+        android:toDegrees="360"></rotate>
+
+</set>
